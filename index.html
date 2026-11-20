@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentaciones del Equipo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+      padding: 20px;
+    }
+    .contenedor {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 20px;
+      padding: 40px 32px;
+      max-width: 440px;
+      width: 100%;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+    h1 { font-size: 1.75rem; margin-bottom: 8px; }
+    p { color: #94a3b8; margin-bottom: 28px; font-size: 0.95rem; }
+    .botones { display: flex; flex-direction: column; gap: 14px; }
+    a.btn {
+      display: block;
+      padding: 14px 20px;
+      border-radius: 12px;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #e0f2fe;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    a.btn:hover {
+      transform: translateY(-2px);
+      background: rgba(56, 189, 248, 0.28);
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Presentaciones del Equipo</h1>
+    <p>Selecciona un integrante para ver su presentación</p>
+    <div class="botones">
+      <a href="pamela_presentacion.html" class="btn">Pamela Lara Jerónimo</a>
+      <a href="dahana.html" class="btn">Dahana Rubi Montejano</a>
+    </div>
+  </div>
+</body>
+</html>
